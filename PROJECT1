@@ -1,0 +1,133 @@
+<html>
+    <head>
+    <title>My webpage</title>
+    <style>
+        body{
+            background-color: lavender;  
+            font-family: 'Times New Roman', Times, serif;
+            color: teal;
+        }
+        
+        h1 {
+            color:teal ;
+            text-align: center;
+        }
+        
+        h2 {
+            color:teal;
+            text-align: center;
+        }
+        
+        h3 {
+            color:teal;
+            text-align: center;
+        }
+        h4 {
+            text-align: center;
+        }
+        
+        img.profilePic {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 400px;
+            height: 350px;
+        }
+        
+        #css {
+            font-style:oblique;
+            color:teal;
+            text-align: center;
+        }
+        
+        p {
+            font-size: 20px;
+            text-align: center;
+        }
+        
+        li{
+            text-align: center;
+        }
+
+        table{
+    	        font-size:18px;
+    	        background-color:AliceBlue;
+                color: darkblue;
+    	    }
+    	    #favorite{
+    	        background-color:green;
+    	    }
+    	    .game{
+    	        background-color:orange;   
+    	        color:white;
+    	    }
+            .center {
+                margin-left: auto;
+                margin-right: auto;
+            }
+    </style>
+</head>
+<body>
+    <h1>Welocme to MyHomepage</h1>
+    <img class="profilePic" src="https://www.topgear.com/sites/default/files/2023/07/24Mustang_Media_drive%20LA_23.jpg?w=892&h=502">
+    <p>My name is Valeria, and I am student in the 10th grade at the Orizont lyceum and I want to learn all I can about Web Design and HTML. That's why I'm taking <a href="https://codehs.com/info/curriculum/web_design">Web Design</a> with CodeHS!</p>
+    
+    <p>I started off with learning <strong>HTML</strong> and <span id="css">CSS</span>. That's how I made my very own homepage!</p>
+    <a href="admin001.codehs.me"></a>
+
+    <p>You can make your own homepage as well! Simply go to the CodeHS <a href="https://codehs.com/editor/sandbox">Sandbox</a>, and click the edit Homepage button:</p>
+    <a href="https://codehs.com/editor/sandbox"><img src="https://s3.amazonaws.com/f.cl.ly/items/3j0Q411Y22473S01053I/Screen%20Shot%202016-03-17%20at%2010.57.25%20AM.png?v=72bdf79d"></a>
+    
+    <h2>About Me</h2>
+    
+    <p>
+        My name si Valeria and I'm student at thoretical lyceym Oriznot in the 10th grade. I have a lot of hobbies icluding:
+    </p>
+
+    <ol>
+        <li>Reading</li>
+        <li>Sleeping</li>
+        <li>Listening music</li>
+        <li>Watching Films</li>
+        <li>Hanging out with friends</li>
+    </ol>
+
+    <p>
+        <strong><em>Here are some of my projects:</em></strong>
+    </p>
+    
+    <h3>Most Popular Games</h3>
+
+    <h4>Table games</h4>
+    <table border="1" class = "center">
+        <tr>
+            <th>Board Game Name</th>
+            <th>Number of Players</th>
+            <th>Who Owns the Game</th>
+        </tr>
+        <tr>
+            <td class="game">Settlers of Catan</td>
+            <td>3</td>
+            <td>Zach</td>
+        </tr>
+        <tr>
+            <td class="game" id="favorite">Monopoly</td>
+            <td>6</td>
+            <td>Kimmie</td>
+        </tr>
+        <tr>
+            <td class="game">Checkers</td>
+            <td>2</td>
+            <td>Calvin</td>
+        </tr>
+    </table>
+
+    <p>And here is a ling to another of my projects:</p>
+    <p><a href="https://codehs.com/student/3699317/section/347301/assignment/95644512/">Enadngered animals</p>
+
+    <h2>Thank You!</h2>
+    <p>I hope you enjoyed viewing my homepage, and I encourage you to <a href="https://codehs.com/editor/sandbox">make your own</a>!</p>
+    <p>If you have any questions, or if you're interested in teaching Web Design at your school with CodeHS, shoot us an email at <a href="mailto:hello@codehs.com">hello@codehs.com</a> and let us know!</p>
+
+</body>
+</html>
