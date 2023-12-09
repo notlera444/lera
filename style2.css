@@ -1,18 +1,14 @@
 
-div.nav-bar {
+div.links {
     background-color: yellow; padding: 20px;
-    text-align: center;}
-    .nav-bar a {
+    text-align: center;
     text-transform: uppercase;
-    }
+}
     div.content {
-    background-color: antiquewhite;
+    background-color: #48b9db;
     padding: 20px;
     }
     .content> h1 {
     text-align: center;
-    background-color: rgb(255, 251, 246); padding: 10px;
-    }
-    P+ p{
-    background-color: rgb(255, 247, 236); padding: 10px;
+    background-color: rgb(13, 206, 231); padding: 10px;
     }
