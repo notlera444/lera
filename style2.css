@@ -1,0 +1,18 @@
+
+div.nav-bar {
+    background-color: yellow; padding: 20px;
+    text-align: center;}
+    .nav-bar a {
+    text-transform: uppercase;
+    }
+    div.content {
+    background-color: antiquewhite;
+    padding: 20px;
+    }
+    .content> h1 {
+    text-align: center;
+    background-color: rgb(255, 251, 246); padding: 10px;
+    }
+    P+ p{
+    background-color: rgb(255, 247, 236); padding: 10px;
+    }
