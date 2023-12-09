@@ -2,12 +2,12 @@ p:hover {
     color:rgb(255, 0, 0); font-weight: bold;
     }
     p::before {
-    content: 'Hello';
+    content: 'Hiiiii';
     color: red;
     font-weight: bold;
     }
     p::after {
-    content: 'Bye!';
+    content: 'goodbye!';
     color: red;
     font-weight: bold;
     }
