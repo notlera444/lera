@@ -8,7 +8,7 @@ div{
     font-size: large;
     background-color: rgba(0, 76, 255, 0.145);
 }
-img::after{
+img:active{
     animation: fadein;
 }
 @keyframes fadein{
