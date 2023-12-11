@@ -1,63 +1,10 @@
 body{
-    background-color: lavender;  
+    background:linear-gradient(to right, rgb(0, 135, 47),rgb(0, 120, 150));
     font-family: 'Times New Roman', Times, serif;
-    color: teal;
+    color: rgb(0, 0, 0);
 }
-
-h1 {
-    color:teal ;
+div{
     text-align: center;
+    font-size: large;
+    background-color: rgba(0, 76, 255, 0.145);
 }
-
-h2 {
-    color:teal;
-    text-align: center;
-}
-
-h3 {
-    color:teal;
-    text-align: center;
-}
-h4 {
-    text-align: center;
-}
-
-img.profilePic {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 400px;
-    height: 350px;
-}
-
-#css {
-    font-style:oblique;
-    color:teal;
-    text-align: center;
-}
-
-p {
-    font-size: 20px;
-    text-align: center;
-}
-
-li{
-    text-align: center;
-}
-
-table{
-        font-size:18px;
-        background-color:AliceBlue;
-        color: darkblue;
-    }
-    #favorite{
-        background-color:green;
-    }
-    .game{
-        background-color:orange;   
-        color:white;
-    }
-    .center {
-        margin-left: auto;
-        margin-right: auto;
-    }
