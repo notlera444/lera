@@ -7,11 +7,19 @@ div{
     text-align: center;
     font-size: large;
     background-color: rgba(0, 76, 255, 0.145);
+    animation: fading 2s ease forwards;
+    margin-bottom: 50%;
+    margin-top: 50%;
+    padding: 50px;
 }
-img:active{
-    animation: fadein;
+img{
+    width: 50%;
+    height:50%;
 }
-@keyframes fadein{
+/* img:active{
+    animation: fading;
+} */
+@keyframes fading{
     0%{
         opacity: 0%;
     }
