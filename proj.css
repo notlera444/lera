@@ -8,9 +8,10 @@ div{
     font-size: large;
     background-color: rgba(0, 76, 255, 0.145);
     animation: fading 2s ease forwards;
-    /* margin-bottom: 50%;
-    margin-top: 50%; */
+    margin-bottom: 50px;
+    margin-top: 50px;
     padding: 50px;
+
 }
 img{
     width: 50%;
