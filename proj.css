@@ -11,7 +11,7 @@ body{
     margin-bottom: 50px;
     margin-top: 50px;
     padding: 50px;
-
+    animation: myanim 2s ease forwards;
 }
 .div2{
     background-image: url(liceul.jpg);
@@ -23,7 +23,7 @@ body{
     animation: fading 2s ease forwards;
     margin-bottom: 50px;
     margin-top: 50px;
-    padding: 50px;
+    animation: myanim 2s ease forwards;
     font-size:x-large
 }
 .div3{
@@ -36,7 +36,7 @@ body{
     animation: fading 2s ease forwards;
     margin-bottom: 50px;
     margin-top: 50px;
-    padding: 50px;
+    animation: myanim 2s ease forwards;
     font-size:x-large;
     color: aliceblue;
 }
@@ -50,7 +50,7 @@ body{
     animation: fading 2s ease forwards;
     margin-bottom: 50px;
     margin-top: 50px;
-    padding: 50px;
+    animation: myanim 2s ease forwards;
     font-size:x-large;
     color: rgb(54, 0, 28);
     text-wrap:balance;
@@ -67,6 +67,7 @@ body{
     margin-top: 50px;
     padding: 50px;
     font-size: large;
+    animation: myanim 2s ease forwards;
 }
 .img{
     width: 40%;
@@ -86,4 +87,13 @@ body{
     100%{
         opacity: 100%;
     }
+}
+@keyframes myanim{
+    0% {
+        height: 100px;
+      }
+      100% {
+  
+        height: 100%;
+      }
 }
