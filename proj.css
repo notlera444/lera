@@ -78,6 +78,9 @@ body{
     width: 400px;
     height:300px;
 }
+div > p{
+    animation:fading 5s ease;
+}
 /* img:active{
     animation: fading;
 } */
