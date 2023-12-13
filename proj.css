@@ -3,7 +3,7 @@ body{
     font-family: 'Times New Roman', Times, serif;
     color: rgb(0, 0, 0);
 }
-div{
+.div1{
     text-align: center;
     font-size: large;
     background-color: rgba(0, 76, 255, 0.145);
@@ -13,9 +13,68 @@ div{
     padding: 50px;
 
 }
-img{
-    width: 50%;
-    height:50%;
+.div2{
+    background-image: url(liceul.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    animation: fading 2s ease forwards;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    padding: 50px;
+    font-size:x-large
+}
+.div3{
+    background-image: url(bascketball.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    animation: fading 2s ease forwards;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    padding: 50px;
+    font-size:x-large;
+    color: aliceblue;
+}
+.div4{
+    background-image: url(house.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    animation: fading 2s ease forwards;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    padding: 50px;
+    font-size:x-large;
+    color: rgb(54, 0, 28);
+    text-wrap:balance;
+}
+.no{
+    background-image: url(cokking.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    animation: fading 2s ease forwards;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    padding: 50px;
+    font-size: large;
+}
+.img{
+    width: 40%;
+    height:60%;
+}
+.img2{
+    width: 400px;
+    height:300px;
 }
 /* img:active{
     animation: fading;
